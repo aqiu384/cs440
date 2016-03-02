@@ -1,0 +1,54 @@
+search order: category with the fewest entries in word list
+root -> MAD -> EYE -> NAE -> NEE -> MAN -> NNEMANDYE
+                          -> WEE -> MAN -> NWEMANDYE
+            -> TOE -> NAE -> backtrack
+     -> SAD -> EYE -> NAE -> NEE -> SAY -> NNESAYDYE
+                          -> WEE -> SAY -> NWESAYDYE
+            -> TOE -> NAE -> backtrack
+     -> WOE -> EYE -> backtrack
+            -> TOE -> backtrack
+    
+
+search order: category with the fewest entries in word list
+root -> FEW -> backtrack
+     -> HIS -> SIS -> SIN -> HAW -> SAW -> SAC -> HSIAIWNCS
+                                        -> SAP -> HSIAIWNPS
+                          -> HEM -> backtrack
+                          -> HEY -> backtrack
+                          -> HOW -> SOW -> SOD -> HSIOIWNDS
+                                        -> SOY -> HSIOIWNYS
+                          -> HUM -> backtrack
+     -> HIM -> backtrack
+     -> ITS -> SIS -> SIN -> ICK -> backtrack
+     -> ONE -> backtrack
+     -> SHE -> backtrack
+    
+
+search order: category with the fewest entries in word list
+root -> ALP -> PEA -> ASP -> SUP -> ASULPEA
+            -> PIE -> ASP -> SUP -> ASULPIE
+     -> BOT -> TEA -> BAT -> backtrack
+     -> EFT -> TEA -> backtrack
+     -> GAT -> TEA -> backtrack
+     -> PUY -> YAM -> backtrack
+     -> YAY -> YAM -> backtrack
+     -> ZHO -> OIL -> ZHO -> backtrack
+            -> OAT -> ZHO -> backtrack
+    
+
+search order: category with the fewest entries in word list
+root -> EAR -> FEW -> FAX -> backtrack
+            -> HER -> HIT -> backtrack
+     -> EYE -> FEW -> FAX -> backtrack
+            -> HER -> HIT -> HEY -> DIE -> HEDITYRE
+                                 -> LIE -> HELITYRE
+                                 -> TIE -> HETITYRE
+    
+
+search order: category with the fewest entries in word list
+root -> TEN -> TIN -> TIE -> TOE -> NON -> HEN -> ION -> IHTTNOIEN
+                                               -> TON -> THTTNOIEN
+                                 -> YON -> HEN -> ION -> IHTTYOIEN
+                                               -> TON -> THTTYOIEN
+    
+

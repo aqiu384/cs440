@@ -1,0 +1,82 @@
+search order: letter with the most word dependencies
+root -> E -> A -> E -> M -> D -> Y -> N -> N -> N -> NNEMANDYE
+                                        -> W -> N -> NWEMANDYE
+                    -> S -> D -> Y -> N -> N -> Y -> NNESAYDYE
+                                        -> W -> Y -> NWESAYDYE
+     -> W -> A -> backtrack
+    
+
+search order: letter with the most word dependencies
+root -> A -> C -> A -> backtrack
+               -> I -> backtrack
+          -> S -> backtrack
+     -> D -> A -> A -> A -> backtrack
+               -> H -> A -> backtrack
+               -> S -> A -> backtrack
+               -> Y -> A -> backtrack
+          -> I -> F -> A -> E -> backtrack
+          -> Y -> A -> A -> E -> backtrack
+     -> H -> I -> F -> backtrack
+          -> O -> F -> backtrack
+               -> H -> backtrack
+               -> O -> backtrack
+               -> W -> backtrack
+               -> Y -> backtrack
+          -> U -> H -> backtrack
+               -> S -> backtrack
+               -> Y -> backtrack
+     -> S -> A -> A -> I -> backtrack
+               -> H -> I -> W -> S -> I -> N -> C -> HSIAIWNCS
+                                             -> P -> HSIAIWNPS
+               -> S -> I -> Y -> backtrack
+               -> Y -> I -> Y -> backtrack
+          -> E -> H -> I -> backtrack
+               -> Y -> I -> backtrack
+          -> I -> F -> I -> backtrack
+          -> O -> F -> I -> backtrack
+               -> H -> I -> W -> S -> I -> N -> D -> HSIOIWNDS
+                                             -> Y -> HSIOIWNYS
+               -> O -> I -> backtrack
+               -> W -> I -> W -> backtrack
+               -> Y -> I -> W -> backtrack
+     -> T -> A -> A -> backtrack
+               -> H -> backtrack
+               -> S -> backtrack
+               -> Y -> backtrack
+          -> I -> F -> backtrack
+          -> O -> F -> backtrack
+               -> H -> backtrack
+               -> O -> backtrack
+               -> W -> backtrack
+               -> Y -> backtrack
+          -> U -> H -> backtrack
+               -> S -> backtrack
+               -> Y -> backtrack
+    
+
+search order: letter with the most word dependencies
+root -> E -> backtrack
+     -> O -> Z -> backtrack
+     -> P -> A -> S -> L -> E -> A -> U -> ASULPEA
+                         -> I -> E -> U -> ASULPIE
+     -> T -> B -> backtrack
+     -> Y -> backtrack
+    
+
+search order: letter with the most word dependencies
+root -> A -> backtrack
+     -> F -> backtrack
+     -> H -> E -> I -> E -> Y -> R -> D -> T -> HEDITYRE
+                                   -> L -> T -> HELITYRE
+                                   -> T -> T -> HETITYRE
+     -> W -> H -> E -> backtrack
+               -> W -> backtrack
+    
+
+search order: letter with the most word dependencies
+root -> N -> E -> O -> T -> T -> I -> I -> H -> N -> IHTTNOIEN
+                                             -> Y -> IHTTYOIEN
+                                   -> T -> H -> N -> THTTNOIEN
+                                             -> Y -> THTTYOIEN
+    
+
